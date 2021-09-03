@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="./media/img/favicon.png" type="image" sizes="16x16">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <title>Chess Game</title>
+</head>
+<body>
+    <i id="settings-icon" class="material-icons">settings</i>
+    <div id="settings-tab" class="settings-tab">
+        <button id="restart">restart</button>
+        <button id="back">back</button>
+        <button id="next">next</button>
+    </div>
+    <main id="container" class="container">
+        <div id="main">
+            <div class="player-side" id="player-2-side">
+                <div class="timer" id='timer1'>00:00</div>
+            </div>
+            <div id="board">
+    
+            </div>
+            <div class="player-side" id="player-1-side">
+                <div class="timer" id="timer2">00:00</div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <audio id="sound" src=""></audio>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
